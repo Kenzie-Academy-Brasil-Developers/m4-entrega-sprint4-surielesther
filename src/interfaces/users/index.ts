@@ -37,3 +37,7 @@ export interface IUserCreate {
   updatedAt: Date;
   id: string;
 }
+
+export interface IUserDelete {
+  id: string;
+}
